@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="80dp"
+                                                   android:layout_height="150dp"
+                                                   app:cardCornerRadius="12dp"
+                                                   android:background="@drawable/gradient_back"
+                                                   android:layout_marginLeft="12dp"
+                                                   android:layout_marginRight="6dp"
+
+>
+
+    <LinearLayout
+            android:background="@drawable/gradient_back"
+
+            android:padding="16sp"
+            android:orientation="vertical"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+
+    >
+        <ImageView
+                android:scaleType="fitCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="64dp"
+
+                tools:srcCompat="@drawable/speed_off"
+                android:id="@+id/imageView" android:layout_gravity="center_horizontal"/>
+        <TextView
+                android:text="0"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/speed_text" android:textAlignment="center"/>
+        <TextView
+                android:text="Server"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_marginBottom="12dp"
+                android:id="@+id/server_text" android:textAlignment="center" android:textColor="@color/text_one"/>
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
