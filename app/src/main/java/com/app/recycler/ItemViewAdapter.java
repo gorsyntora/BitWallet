@@ -31,7 +31,6 @@ public class ItemViewAdapter extends RecyclerView.Adapter<ItemViewAdapter.DataIt
     public DataItemHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         View recyclerViewItem = mLayoutInflater.inflate(R.layout.items_layout, parent, false);
-
         recyclerViewItem.setOnClickListener(v -> handleRecyclerItemClick((RecyclerView) parent, v));
         return new DataItemHolder(recyclerViewItem, context);
     }

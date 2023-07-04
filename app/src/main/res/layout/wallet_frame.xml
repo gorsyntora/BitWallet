@@ -9,7 +9,7 @@
 
 
     <FrameLayout android:layout_width="match_parent"
-                 android:layout_height="128dp"
+                 android:layout_height="100dp"
                  style="@style/CustomCardViewStyle"
                  android:background="@drawable/background_top"
                  android:layout_marginRight="2dp"
@@ -93,16 +93,16 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/main_menu"
-            app:layout_constraintBottom_toTopOf="@+id/button" app:layout_constraintVertical_bias="0.205"
-            android:drawablePadding="12dp" android:layout_marginTop="72dp"/>
+
+            android:drawablePadding="12dp" android:layout_marginTop="48dp"/>
     <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="164dp"
             android:id="@+id/content_view"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.79"
-            tools:layout_editor_absoluteX="-50dp"/>
+            />
     <ProgressBar
             style="?android:attr/progressBarStyleHorizontal"
             android:orientation="horizontal"

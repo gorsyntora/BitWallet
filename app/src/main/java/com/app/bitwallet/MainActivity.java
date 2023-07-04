@@ -81,7 +81,6 @@ public class MainActivity extends AppCompatActivity {
                             adapter.notifyItemChanged(finalI);
                         }, 2000L * finalI);
 
-
                     }
 
                 }
